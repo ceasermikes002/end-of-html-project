@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .person {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .person img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .person h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .person p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  
+  .person .date {
+    margin-left: auto;
+    font-size: 0.8rem;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+  
